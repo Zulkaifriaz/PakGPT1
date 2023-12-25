@@ -1,5 +1,5 @@
 import React from "react";
-import shoaib from "../../assets/zulkaif.jpeg";
+import zulkaif from "../../assets/zulkaif.jpeg";
 import MemberCard from "./MemberCard/MemberCard";
 
 const Team = () => {
