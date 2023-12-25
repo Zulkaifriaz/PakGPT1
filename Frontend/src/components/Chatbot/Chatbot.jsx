@@ -45,7 +45,7 @@ const Chatbot = () => {
       setIsLoading(false);
       setMessages([
         ...messages,
-        { sender: "api", message: "Some error occoured" },
+        { sender: "api", message: "Zulkaif ka code kabhi nai chalta" },
       ]);
       inputRef.current.focus();
       console.log(error);
