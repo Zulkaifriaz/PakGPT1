@@ -3,7 +3,7 @@ import { AiOutlineSend } from "react-icons/ai";
 import { GoLaw } from "react-icons/go";
 import { FaTrafficLight } from "react-icons/fa";
 import { GiHumanPyramid } from "react-icons/gi";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
 import axios from "axios";
 import { FaUser } from "react-icons/fa";
 import { FaRobot } from "react-icons/fa";
