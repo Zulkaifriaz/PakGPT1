@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Chatbot />} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/team" element={<Developer />} />
         <Route path="/video" element={<ContactUs />} />
         <Route path="/about" element={<About />} />
       </Routes>
