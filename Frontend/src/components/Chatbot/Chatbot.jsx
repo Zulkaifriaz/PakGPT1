@@ -57,9 +57,9 @@ const Chatbot = () => {
         <div>
           <img src={logo} alt="logo" width="300" />
           <h2 className="text-center text-3xl font-bold tracking-widest">
-            Pocket{" "}
+            PAK{" "}
             <span className="text-primary">
-              Lawyer<span className=""></span>
+              GPT<span className=""></span>
             </span>
           </h2>
         </div>
