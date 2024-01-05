@@ -28,9 +28,11 @@ const Chatbot = () => {
       setIsLoading(true);
       const formData = new FormData();
       formData.append("q", message);
-      const res = await axios.post("https://ab09-51-103-208-117.ngrok-free.app", formData);
+      const res = await axios.post("https://99ce-51-103-208-117.ngrok-free.app", formData);
+      console.log(res)
       const new_messages = [...messages, { sender: "user", message: message }];
       const data = await res.data;
+    
       await setMessages([...new_messages, { sender: "api", message: data }]);
       setMessage("");
       setIsLoading(false);
